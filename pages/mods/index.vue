@@ -13,6 +13,11 @@
                             {{ mod.name }}
                         </p>
                     </header>
+                    <div class="card-content">
+                        <p class="subtitle is-6 is-centered">
+                            {{ mod.description }}
+                        </p>
+                    </div>
                 </div>  
             </div>
         </div>
