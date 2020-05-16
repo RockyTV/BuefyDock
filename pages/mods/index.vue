@@ -1,7 +1,7 @@
 <template>
     <section>
-        <div class="columns">
-            <div class="column" v-for="mod in mods">
+        <div class="columns is-multiline">
+            <div class="column is-4" v-for="mod in mods">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
@@ -43,6 +43,21 @@ export default {
                     name: 'A Test Mod 3',
                     author: 'TestUser3',
                     description: 'Sed et nisl ante. Morbi vitae nisl id neque eleifend varius. Aliquam in ipsum gravida, tempus felis ultrices, vulputate nisi.'
+                },
+                {
+                    name: 'A Test Mod 4',
+                    author: 'TestUser4',
+                    description: 'Sed et nisl ante. Morbi vitae nisl id neque eleifend varius. Aliquam in ipsum gravida, tempus felis ultrices, vulputate nisi.'
+                },
+                {
+                    name: 'A Test Mod 5',
+                    author: 'TestUser5',
+                    description: 'Sed et nisl ante. Morbi vitae nisl id neque eleifend varius. Aliquam in ipsum gravida, tempus felis ultrices, vulputate nisi.'
+                },
+                {
+                    name: 'A Test Mod 6',
+                    author: 'TestUser6',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt lorem ipsum, quis fringilla libero vulputate quis.'
                 },
             ]
         }
