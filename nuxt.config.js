@@ -9,5 +9,7 @@ module.exports = {
             target: 'https://spacedock.info/api',
             changeOrigin: true
         }
-    }
+    },
+
+    plugins: ['~/plugins/moment']
 }
