@@ -28,6 +28,18 @@
         <div class="container">
             <br>
             <Nuxt />
+            <br>
         </div>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>Made with <b-icon icon="heart" /> by Kerbal Space Program fans</p>
+                <p class="has-text">
+                    <b-icon icon="github" size="is-large" />
+                    <b-icon icon="discord" size="is-large" />
+                    <b-icon icon="chat" size="is-large" />
+                    <b-icon icon="email" size="is-large" />
+                </p>
+            </div>
+        </footer>
     </section>
 </template>
