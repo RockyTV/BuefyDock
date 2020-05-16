@@ -3,7 +3,7 @@
         <div class="media-content">
             <ModDetails :author="mod.author" :downloads="mod.downloads" :followers="mod.followers" :license="mod.license" :website="mod.url" :gameversion="mod.versions[0].game_version" :name="mod.name" :background="mod.background" />
 
-            <b-tabs position="is-centered" class="block" v-model="activeTab">
+            <b-tabs position="is-centered" class="block" :activeTab.sync="activeTab">
                 <b-tab-item label="description">
                     <ModDesc :mod="mod" />
                 </b-tab-item>
