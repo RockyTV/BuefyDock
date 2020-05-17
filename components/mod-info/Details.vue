@@ -7,79 +7,85 @@
         </div>
 
         <div class="card-content">
-            <div class="has-text-centered">
-                <p class="is-size-4">
-                    <strong>{{ name }}</strong>
-                </p>
+            <p class="is-size-4 has-text-centered media-content">
+                <strong>{{ name }}</strong>
+            </p>
 
-                <div>
-                    <span class="has-text-left">
-                        <b-icon icon="copyright" class="has-text-info" />
-                        <span class="has-text is-size-6">
-                            License:
-                        </span> 
+            <br>
 
-                        <span class="is-size-5">
-                            {{ license }}
-                        </span>
-                    </span>
+            <div class="columns is-centered">
 
-                    <span class="has-text-right">
-                        <b-icon icon="account" class="has-text-info" /> 
-                        <span class="has-text is-size-6">
-                            Author:
-                        </span> 
+                <div class="column">
+                    <div class="columns is-centered">
+                        <div class="column is-3">
+                            <div>
+                                <b-icon icon="copyright" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    License:
+                                </span>
 
-                        <span class="is-size-5">
-                            {{ author }}
-                        </span>
-                    </span>
-                </div>
+                                <span class="is-size-5">
+                                    {{ license }}
+                                </span>
+                            </div>
 
-                <div>
-                    <span class="has-text-left">
-                        <b-icon icon="check" class="has-text-info" />
-                        <span class="has-text is-size-6">
-                            Game Version:
-                        </span> 
-                        <span class="is-size-5">
-                            {{ gameversion }}
-                        </span>
-                    </span>
-                    <span class="has-text-right">
-                        <b-icon icon="link" class="has-text-info" />
-                        <span class="has-text is-size-6">
-                            Website:
-                        </span>
+                            <div>
+                                <b-icon icon="check" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    Game Version:
+                                </span>
+                                <span class="is-size-5">
+                                    {{ gameversion }}
+                                </span>
+                            </div>
 
-                        <span class="is-size-5">
-                            <a :href="website">Click here</a>
-                        </span>
-                    </span>
-                </div>
+                            <div>
+                                <b-icon icon="download" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    Downloads:
+                                </span>
 
-                <div>
-                    <span class="has-text-left">
-                        <b-icon icon="download" class="has-text-info" />
-                        <span class="has-text is-size-6">
-                            Downloads:
-                        </span>
+                                <span class="is-size-5">
+                                    {{ downloads }}
+                                </span>
+                            </div>
 
-                        <span class="is-size-5">
-                            {{ downloads }}
-                        </span>
-                    </span>
+                        </div>
 
-                    <span class="has-text-right">
-                        <b-icon icon="heart" class="has-text-info" />
-                        <span class="has-text is-size-6">
-                            Followers:
-                        </span>
+                        <div class="column is-2">
+                            <div>
+                                <b-icon icon="account" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    Author:
+                                </span>
 
-                        <span class="is-size-5">
-                            {{ followers }}
-                        </span>
-                    </span>
+                                <span class="is-size-5">
+                                    {{ author }}
+                                </span>
+                            </div>
+                            <div>
+                                <b-icon icon="link" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    Website:
+                                </span>
+
+                                <span class="is-size-5">
+                                    <a :href="website">Click here</a>
+                                </span>
+                            </div>
+
+                            <div>
+                                <b-icon icon="heart" class="has-text-info" />
+                                <span class="has-text is-size-6">
+                                    Followers:
+                                </span>
+
+                                <span class="is-size-5">
+                                    {{ followers }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
