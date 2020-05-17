@@ -4,6 +4,10 @@ module.exports = {
         '@nuxtjs/proxy'
     ],
 
+    axios: {
+        proxy: true
+    },
+
     proxy: {
         '/api': {
             target: 'https://spacedock.info/api',
@@ -11,5 +15,5 @@ module.exports = {
         }
     },
 
-    plugins: ['~/plugins/moment']
+    plugins: ['~/plugins/moment'],
 }
