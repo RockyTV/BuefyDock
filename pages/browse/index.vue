@@ -15,11 +15,11 @@ export default {
     async fetch() {
         const result = await fetch('https://spacedock.info/api/browse').then((res) => res.json())
 
-        this.mods = result.result;
+        this.mods = result.result
     },
 
     components: {
-        'BrowseList': BrowseList
+        BrowseList
     }
 }
 </script>
